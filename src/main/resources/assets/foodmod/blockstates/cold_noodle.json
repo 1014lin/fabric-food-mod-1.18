@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bite=1": { "model": "foodmod:block/cold_noodle01" },
+    "bite=2": { "model": "foodmod:block/cold_noodle02" },
+    "bite=3": { "model": "foodmod:block/cold_noodle03" },
+    "bite=4": { "model": "foodmod:block/cold_noodle04" },
+    "bite=5": { "model": "foodmod:block/cold_noodle05" },
+    "bite=6": { "model": "foodmod:block/cold_noodle06" }
+  }
+}

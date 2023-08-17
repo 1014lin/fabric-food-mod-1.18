@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "bite=1": { "model": "foodmod:block/stinky_tofu01" },
+    "bite=2": { "model": "foodmod:block/stinky_tofu02" },
+    "bite=3": { "model": "foodmod:block/stinky_tofu03" }
+  }
+}
