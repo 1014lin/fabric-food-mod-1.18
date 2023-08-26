@@ -16,17 +16,13 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final Block GRAPE_VINE = registerBlockWithoutBlockItem("grape_vine",
-            new GrapeVineBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ModItemGroup.mod);
-    public static final Block GINGER_VINE = registerBlockWithoutBlockItem("ginger_vine",
-            new GinGerVineBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ModItemGroup.mod);
-    public static final Block TOMATO_VINE = registerBlockWithoutBlockItem("tomato_vine",
-            new TomatoVineBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ModItemGroup.mod);
+            new GrapeVineBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ModItemGroup.foodmod);
     public static final Block BEEF_NOODLE = registerBlock("beef_noodle",
-            new BeefNoodleBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.mod);
+            new BeefNoodleBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod_taiwanesefood);
     public static final Block COLD_NOODLE = registerBlock("cold_noodle",
-            new ColdNoodleBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.mod);
+            new ColdNoodleBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod_taiwanesefood);
     public static final Block STINKY_TOFU = registerBlock("stinky_tofu",
-            new StinkyTofuBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.mod);
+            new StinkyTofuBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod_taiwanesefood);
     private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.BLOCK, new Identifier(FoodMod.MOD_ID, name), block);
     }
