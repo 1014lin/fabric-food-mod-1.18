@@ -26,8 +26,6 @@ public class ModItems {
     public static final Item SWEET_BERRY_DOUGH = registerItem("sweet_berry_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GLOW_BERRY_DOUGH = registerItem("glow_berry_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GRAPE_DOUGH = registerItem("grape_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
-    public static final Item TOAST = registerItem("toast",
-            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.TOAST)));
     public static final Item CHOCOLATE_TOAST = registerItem("chocolate_toast",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.CHOCOLATE_TOAST)));
     public static final Item SWEET_BERRY_TOAST = registerItem("sweet_berry_toast",
@@ -44,6 +42,12 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.PIE)));
     public static final Item GRAPE_PIE = registerItem("grape_pie",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.PIE)));
+    public static final Item SWEET_BERRY_COOKIE = registerItem("sweet_berry_cookie",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.COOKIE)));
+    public static final Item GLOW_BERRY_COOKIE = registerItem("glow_berry_cookie",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.COOKIE)));
+    public static final Item GRAPE_COOKIE = registerItem("grape_cookie",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.COOKIE)));
     public static final Item CHICKEN_THIGH = registerItem("chicken_thigh",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.CHICKEN_MEAT)));
     public static final Item CHICKEN_BREAST = registerItem("chicken_breast",

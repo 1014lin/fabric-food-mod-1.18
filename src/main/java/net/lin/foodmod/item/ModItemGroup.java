@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
     public static final ItemGroup foodmod = FabricItemGroupBuilder.build(new Identifier(FoodMod.MOD_ID,"mod"),
-            () -> new ItemStack(ModItems.TOAST));
+            () -> new ItemStack(ModItems.FLOUR));
     public static final ItemGroup foodmod_taiwanesefood = FabricItemGroupBuilder.build(new Identifier(FoodMod.MOD_ID,"taiwanese_food"),
             () -> new ItemStack(ModBlocks.BEEF_NOODLE));
 }
