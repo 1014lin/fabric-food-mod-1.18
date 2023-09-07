@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "foodmod:sweet_berry_raisins"
+    }
+  },
+  "result": {
+    "item": "foodmod:sweet_berry_dough",
+    "count": 3
+  }
+}

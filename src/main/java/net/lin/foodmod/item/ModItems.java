@@ -11,7 +11,6 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item CHOPSTICKS = registerItem("chopsticks",new Item(new FabricItemSettings().group(ModItemGroup.foodmod_taiwanesefood)));
     public static final Item COLD_NOODLE_SAUCE = registerItem("cold_noodle_sauce", new Item(new FabricItemSettings().group(ModItemGroup.foodmod_taiwanesefood)));
-    public static final Item FLOUR = registerItem("flour",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GRAPE = registerItem("grape",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE)));
     public static final Item GRAPE_SEEDS = registerItem("grape_seeds",
