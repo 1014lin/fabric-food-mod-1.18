@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "foodmod:glow_berry_dough"
+  },
+  "result": "foodmod:glow_berry_cookie",
+  "experience": 0.35,
+  "cookingtime": 600
+}

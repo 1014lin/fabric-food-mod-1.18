@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "foodmod:sweet_berry_dough"
+  },
+  "result": "foodmod:sweet_berry_cookie",
+  "experience": 0.35,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "foodmod:grape_dough"
+  },
+  "result": "foodmod:grape_cookie",
+  "experience": 0.35,
+  "cookingtime": 600
+}
