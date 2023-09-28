@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:sweet_berry_pie_dough"
+  },
+  "result": "foodmod:sweet_berry_pie",
+  "experience": 0.35,
+  "cookingtime": 100
+}

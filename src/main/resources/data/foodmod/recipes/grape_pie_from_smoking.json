@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:grape_pie_dough"
+  },
+  "result": "foodmod:grape_pie",
+  "experience": 0.35,
+  "cookingtime": 100
+}

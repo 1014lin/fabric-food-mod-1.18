@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:glow_berry_pie_dough"
+  },
+  "result": "foodmod:glow_berry_pie",
+  "experience": 0.35,
+  "cookingtime": 100
+}
