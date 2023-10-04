@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:glow_berry_toast_dough"
+  },
+  "result": "foodmod:glow_berry_toast",
+  "experience": 0.35,
+  "cookingtime": 200
+}

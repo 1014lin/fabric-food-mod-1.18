@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:grape_toast_dough"
+  },
+  "result": "foodmod:grape_toast",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "foodmod:chocolate_toast_dough"
+  },
+  "result": "foodmod:chocolate_toast",
+  "experience": 0.35,
+  "cookingtime": 200
+}

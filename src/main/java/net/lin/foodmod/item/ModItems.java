@@ -25,6 +25,10 @@ public class ModItems {
     public static final Item SWEET_BERRY_DOUGH = registerItem("sweet_berry_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GLOW_BERRY_DOUGH = registerItem("glow_berry_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GRAPE_DOUGH = registerItem("grape_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
+    public static final Item CHOCOLATE_TOAST_DOUGH = registerItem("chocolate_toast_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
+    public static final Item SWEET_BERRY_TOAST_DOUGH = registerItem("sweet_berry_toast_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
+    public static final Item GLOW_BERRY_TOAST_DOUGH = registerItem("glow_berry_toast_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
+    public static final Item GRAPE_TOAST_DOUGH = registerItem("grape_toast_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item CHOCOLATE_PIE_DOUGH = registerItem("chocolate_pie_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item SWEET_BERRY_PIE_DOUGH = registerItem("sweet_berry_pie_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GLOW_BERRY_PIE_DOUGH = registerItem("glow_berry_pie_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
