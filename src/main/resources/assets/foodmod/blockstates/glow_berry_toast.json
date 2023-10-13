@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "bite=1": { "model": "foodmod:block/glow_berry_toast01" },
+    "bite=2": { "model": "foodmod:block/glow_berry_toast02" },
+    "bite=3": { "model": "foodmod:block/glow_berry_toast03" },
+    "bite=4": { "model": "foodmod:block/glow_berry_toast04" }
+  }
+}

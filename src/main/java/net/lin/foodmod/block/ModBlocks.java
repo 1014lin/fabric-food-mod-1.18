@@ -23,6 +23,14 @@ public class ModBlocks {
             new ColdNoodleBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod_taiwanesefood);
     public static final Block STINKY_TOFU = registerBlock("stinky_tofu",
             new StinkyTofuBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod_taiwanesefood);
+    public static final Block GLOW_BERRY_TOAST = registerBlock("glow_berry_toast",
+            new GlowBerryToastBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod);
+    public static final Block GRAPE_TOAST = registerBlock("grape_toast",
+            new GrapeToastBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod);
+    public static final Block CHOCOLATE_BERRY_TOAST = registerBlock("chocolate_toast",
+            new ChocolateBerryToastBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod);
+    public static final Block SWEET_BERRY_TOAST = registerBlock("sweet_berry_toast",
+            new SweetBerryToastBlock(FabricBlockSettings.of(Material.AIR).nonOpaque()), ModItemGroup.foodmod);
     private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.BLOCK, new Identifier(FoodMod.MOD_ID, name), block);
     }
