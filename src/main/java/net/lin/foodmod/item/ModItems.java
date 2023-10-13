@@ -35,12 +35,20 @@ public class ModItems {
     public static final Item GRAPE_PIE_DOUGH = registerItem("grape_pie_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item PUMPKIN_PIE_DOUGH = registerItem("pumpkin_pie_dough",new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item CHOCOLATE_TOAST = registerItem("chocolate_toast",
-            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.CHOCOLATE_TOAST)));
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item SWEET_BERRY_TOAST = registerItem("sweet_berry_toast",
-            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE_TOAST)));
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GLOW_BERRY_TOAST = registerItem("glow_berry_toast",
-            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE_TOAST)));
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
     public static final Item GRAPE_TOAST = registerItem("grape_toast",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod)));
+    public static final Item CHOCOLATE_TOAST_SLICE = registerItem("chocolate_toast_slice",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.CHOCOLATE_TOAST)));
+    public static final Item SWEET_BERRY_TOAST_SLICE = registerItem("sweet_berry_toast_slice",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE_TOAST)));
+    public static final Item GLOW_BERRY_TOAST_SLICE = registerItem("glow_berry_toast_slice",
+            new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE_TOAST)));
+    public static final Item GRAPE_TOAST_SLICE = registerItem("grape_toast_slice",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.GRAPE_TOAST)));
     public static final Item CHOCOLATE_PIE = registerItem("chocolate_pie",
             new Item(new FabricItemSettings().group(ModItemGroup.foodmod).food(ModfoodComponets.PIE)));
