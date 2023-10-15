@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:glow_berry_toast"
+    }
+  ],
+  "result": {
+    "item": "foodmod:glow_berry_toast_slice",
+    "count": 4
+  }
+}

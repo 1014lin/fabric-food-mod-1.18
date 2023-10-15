@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:grape_toast"
+    }
+  ],
+  "result": {
+    "item": "foodmod:grape_toast_slice",
+    "count": 4
+  }
+}

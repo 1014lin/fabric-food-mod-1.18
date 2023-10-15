@@ -58,6 +58,7 @@ public class SweetBerryToastBlock extends Block {
                 SHAPE = Block.createCuboidShape(4, 0, 0, 12, 8, 8-2*i);
             } else {
                 world.removeBlock(pos, false);
+                player.giveItemStack(new ItemStack(ModItems.SWEET_BERRY_TOAST_SLICE,1));
                 world.emitGameEvent(player, GameEvent.BLOCK_DESTROY, pos);
 
             }

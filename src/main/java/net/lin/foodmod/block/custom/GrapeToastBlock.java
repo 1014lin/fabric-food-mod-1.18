@@ -54,10 +54,11 @@ public class GrapeToastBlock extends Block {
             int i = (Integer) state.get(BITES);
             if (i < 4) {
                 world.setBlockState(pos, (BlockState) state.with(BITES, i + 1), 3);
-                player.giveItemStack(new ItemStack(ModItems.CHOCOLATE_TOAST_SLICE,1));
+                player.giveItemStack(new ItemStack(ModItems.GRAPE_TOAST_SLICE,1));
                 SHAPE = Block.createCuboidShape(4, 0, 0, 12, 8, 8-2*i);
             } else {
                 world.removeBlock(pos, false);
+                player.giveItemStack(new ItemStack(ModItems.GRAPE_TOAST_SLICE,1));
                 world.emitGameEvent(player, GameEvent.BLOCK_DESTROY, pos);
 
             }

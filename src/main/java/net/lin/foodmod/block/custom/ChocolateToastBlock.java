@@ -24,10 +24,10 @@ import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 import org.jetbrains.annotations.Nullable;
 
-public class ChocolateBerryToastBlock extends Block {
+public class ChocolateToastBlock extends Block {
     public static final IntProperty BITES = IntProperty.of("bite",1,4);
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
-    public ChocolateBerryToastBlock(Settings settings) {
+    public ChocolateToastBlock(Settings settings) {
         super(settings);
     }
     private static VoxelShape SHAPE = Block.createCuboidShape(4, 0, 0, 12, 8, 8);
@@ -58,6 +58,7 @@ public class ChocolateBerryToastBlock extends Block {
                 SHAPE = Block.createCuboidShape(4, 0, 0, 12, 8, 8-2*i);
             } else {
                 world.removeBlock(pos, false);
+                player.giveItemStack(new ItemStack(ModItems.CHOCOLATE_TOAST_SLICE,1));
                 world.emitGameEvent(player, GameEvent.BLOCK_DESTROY, pos);
 
             }

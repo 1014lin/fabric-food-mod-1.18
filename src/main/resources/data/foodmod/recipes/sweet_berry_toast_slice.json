@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foodmod:sweet_berry_toast"
+    }
+  ],
+  "result": {
+    "item": "foodmod:sweet_berry_toast_slice",
+    "count": 4
+  }
+}
